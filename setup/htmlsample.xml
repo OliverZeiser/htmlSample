@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2019/03/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.9.1905.2, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-779DF2E2CBED487DAC4CF994B57AC117">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-779DF2E2CBED487DAC4CF994B57AC117" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PageName="htmlsample.aspx" PromoteAsNewsArticle="false" PromoteAsTemplate="false" Overwrite="true" Title="htmlsample">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;eb993786-46c4-4d57-82c5-0af82994d57a&quot;, &quot;instanceId&quot;: &quot;bdcdec59-503d-4645-9799-af89969bbae1&quot;, &quot;title&quot;: &quot;htmlSample&quot;, &quot;description&quot;: &quot;htmlSample description&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {}, &quot;serverProcessedContent&quot;: {&quot;htmlStrings&quot;:{&quot;htmlString&quot;:&quot;&lt;div&gt;&lt;span&gt;&lt;b&gt;HTML Demo Content&lt;{site}b&gt;&lt;{site}span&gt;&lt;{site}div&gt;&quot;},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="eb993786-46c4-4d57-82c5-0af82994d57a" Order="1" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Custom" ServerRelativeImageUrl="{site}_LAYOUTS{site}IMAGES{site}SLEEKTEMPLATEIMAGETILE.JPG" LayoutType="CutInShape" TextAlignment="Center" ShowTopicHeader="false" ShowPublishDate="false" TopicHeader="" AlternativeText="" Authors="[&#xD;&#xA;  {&#xD;&#xA;    &quot;id&quot;: &quot;i:0#.f|membership|oliver.zeiser@ozdev.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;upn&quot;: &quot;oliver.zeiser@ozdev.onmicrosoft.com&quot;,&#xD;&#xA;    &quot;name&quot;: &quot;Oliver Zeiser&quot;,&#xD;&#xA;    &quot;role&quot;: &quot;&quot;&#xD;&#xA;  }&#xD;&#xA;]" AuthorByLineId="-1" />
+          <pnp:Security>
+            <pnp:BreakRoleInheritance CopyRoleAssignments="false" ClearSubscopes="false" />
+          </pnp:Security>
+        </pnp:ClientSidePage>
+      </pnp:ClientSidePages>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
